@@ -1,0 +1,36 @@
+/* Basic styling for the entire page */
+
+
+h1, h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the image and intro section */
+.intro {
+    display: flex;
+    
+}
+
+.text {
+    margin-left: 30px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.intro p {
+    font-size: 16px;
+    text-align: right;
+    justify-content: right;
+}
